@@ -1,0 +1,89 @@
+.carta{
+  width: 190px;
+  height: 190px;
+  color:black;
+
+  .portada{
+    width: 190px;
+    height: 190px;
+    background-color: #ffb300;
+  }
+
+  .contenido{
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;  
+    background-color:#00FFFF;    
+  }
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .carta{
+    width: 125px;
+    height: 125px;
+    .portada{
+      width: 125px;
+      height: 125px;
+    }
+
+    .contenido{
+      width: 125px;
+      height: 125px;
+      font-size: 14px;  
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .carta{
+    width: 100px;
+    height: 100px;
+    .portada{
+      width: 100px;
+      height: 100px;
+    }
+
+    .contenido{
+      width: 100px;
+      height: 100px;
+      font-size: 10px;  
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .carta{
+    width: 85px;
+    height: 85px;
+    .portada{
+      width: 85px;
+      height: 85px;
+    }
+
+    .contenido{
+      width: 85px;
+      height: 85px; 
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .carta{
+    width: 75px;
+    height: 75px;
+    .portada{
+      width: 75px;
+      height: 75px;
+    }
+
+    .contenido{
+      width: 75px;
+      height: 75px;
+    }
+  }
+}
+
+
