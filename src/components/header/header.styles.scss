@@ -1,21 +1,21 @@
-header {
+.header-page {
+  
   
   border-bottom: 2px solid white;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   .contenedor-header {
-    height: 90px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
     margin: auto;
     max-width: 1440px;
-    font-size: 26px;
+    font-size: 22px;
 
     .titulo {
       width:100%;
-      font-size: 32px;
     }
 
     .intentos{
@@ -29,9 +29,8 @@ header {
       padding: 5px;
       color:black;
       outline: none;
-      border-radius: 10px;
+      border-radius: 5px;
       font-weight: bold;
-      font-size: 26px;
     }
   }
 
@@ -40,13 +39,7 @@ header {
       height: 50px;
       padding: 0 20px;
       max-width: 1200px;
-      font-size: 20px;
-      .titulo {
-        font-size: 28px;
-      }
-      button{
-        font-size: 20px;
-      }
+      font-size: 18px;
     } 
   }
 
@@ -54,31 +47,25 @@ header {
     .contenedor-header{
       padding: 0 5px;  
       font-size: 16px;    
-      .titulo{
-        font-size: 20px;
-      }
-      button{
-        font-size: 16px;
-      }
     }  
   }
 
   @media only screen and (max-width: 425px) {
 
-      .contenedor-header{
-        height: 75px;
-        flex-direction: column;
-        .titulo{
-          height: 100%;
-          font-size: 18px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .intentos{
-          align-items: center;
-          height: 100%;
-        }
+    .contenedor-header{
+      height: unset;
+      flex-direction: column;
+      .titulo{
+        padding:10px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
+      .intentos{
+        align-items: center;
+        height: 100%;
+      }
+    }
   }
 }
